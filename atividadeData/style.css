@@ -1,0 +1,29 @@
+/* Fundo da página */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a7d7c5; /* Verde-água claro */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização da caixa */
+.caixa {
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 20px;
+    text-align: center; /* Centraliza o conteúdo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve */
+    width: 300px;
+    max-width: 80%;
+}
+
+/* Estilização do texto */
+.caixa h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #000000; /* Cor preta para o texto */
+}
